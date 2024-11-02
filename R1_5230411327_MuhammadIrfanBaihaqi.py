@@ -231,7 +231,6 @@ def tampilanMenuUtama():
         print("7. Tampilkan Semua Pegawai")
         print("8. Buat Transaksi Baru")
         print("9. Tampil Semua Transaksi")
-        print("10. Tampilkan Seluruh Struk")
         print("0. Exit")
         print("===============================")
 
@@ -285,8 +284,6 @@ def menu():
             Pegawai.tambahtransaksi()
         elif pilih == "9":
             Transaksi.tampilsemuatransaksi()
-        elif pilih == "10":
-            Struk.tampilsemuastruk()
         elif pilih == "0":
             print("Anda Keluar Program")
             return True
